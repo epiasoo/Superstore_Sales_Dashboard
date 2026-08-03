@@ -4,6 +4,10 @@ An interactive Power BI dashboard analysing sales, profit, and order trends for 
 
 ![Dashboard Preview](screenshots/dashboard-overview.png)
 
+## Business Problem
+
+Retail businesses need visibility into revenue performance, customer behaviour, and profitability drivers. This dashboard was developed to help stakeholders identify high-performing categories, regions, products, and customer segments.
+
 ## Overview
 
 This report answers three core business questions:
@@ -12,10 +16,12 @@ This report answers three core business questions:
 - **How is performance trending?** — monthly revenue trend over time
 
 ## Key Metrics
-- **Total Sales:** 2.30M
-- **Total Profit:** 286.40K
-- **Total Orders:** 5,009
-- **Profit Margin:** 12.5%
+| KPI | Value |
+|---|---:|
+| Total Sales | $2.30M |
+| Total Profit | $286.40K |
+| Total Orders | 5,009 |
+| Profit Margin | 12.5% |
 
 ## Key Features
 - KPI summary cards: Total Sales, Total Profit, Total Orders, Profit Margin
@@ -28,11 +34,25 @@ This report answers three core business questions:
 
 ## Data
 - **Source:** Superstore Sales dataset (Order ID, Order Date, Sales, Profit, Category, Region, Product Name, Segment)
-- **Rows:** *[add row count]*
-- **Date range:** *[add date range covered]*
+- **Rows:** *9,994 transactions*
+- **Date range:** *2019 - 2022*
 
-## Tools
-Power BI Desktop, DAX, Power Query
+## Key Insights
+
+- Technology generated the highest revenue among product categories.
+- The West region was the strongest revenue contributor.
+- Consumer customers represented the largest customer segment.
+- Canon products appeared among the top revenue-generating products.
+- Overall profit margin was 12.5%.
+
+## Tools & Skills
+
+- Power BI Desktop
+- DAX (Data Analysis Expressions)
+- Power Query
+- Data Modelling
+- Data Visualisation
+- Business Intelligence Reporting
 
 ## Key DAX Measures
 ```dax
@@ -50,4 +70,7 @@ See `/screenshots` for full-page exports of the dashboard.
 3. Data will refresh automatically if the source file path is available, or you can point it to your own copy of the dataset
 
 ## Author
-Ei Phyu — [GitHub](https://github.com/epiasoo)
+
+**Ei Phyu Sin Oo**
+
+MSc Applied Data Science graduate specialising in data analytics, business intelligence, and data visualisation.
